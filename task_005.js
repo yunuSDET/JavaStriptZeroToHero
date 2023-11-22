@@ -2,8 +2,20 @@
 let arr = [1,2,3,4,5,6,7,8,9];
 
 //First solution
-let sum = 0;
+let sum1 = 0;
 for (let each of arr) {
-    sum +=each
+    sum1 +=each
 }
-console.log(sum);
+console.log(sum1);
+
+
+
+//Second solution
+let sum2 = 0;
+arr.forEach(each => sum2 += each);
+console.log(sum2)
+
+
+//Third solution
+let sum3 = arr.reduce((acc,currentValue) => acc + currentValue,0);
+console.log(sum3)
