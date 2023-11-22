@@ -1,5 +1,5 @@
 //Find the largest of number of an array
-let arr = [1,1232,3,45,5,6,557,8,9889,12,114,41];
+let arr = [1,1232,3,45,5,6,557,8,12,114,41];
 
 
 //First solution
@@ -12,8 +12,8 @@ console.log(largest);
 
 
 //Second solution
-arr.sort();
-console.log(arr[arr.length-1]);
+arr.sort((a,b)=> b-a);
+console.log(arr[0]);
 
 
 
