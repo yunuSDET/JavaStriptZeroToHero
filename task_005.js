@@ -9,7 +9,6 @@ console.log(sum1);
 
 
 
-
 //Second solution
 let sum2 = 0;
 arr.forEach(each => sum2 += each);
