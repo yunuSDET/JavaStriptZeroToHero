@@ -1,7 +1,7 @@
 //Write a program that finds the smallest of three numbers.
 
 let first = 20;
-let second = 20;
+let second = 30;
 let third = 40;
 
 
