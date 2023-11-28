@@ -2,7 +2,7 @@
 
 let count = 0;
 
- for (let index =5000; index > 0; index--) {
+ for (let index =5000; index >=0; index--) {
  
     if(index % 37 ==0) {
         console.log(index);
