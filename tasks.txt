@@ -14,7 +14,7 @@
 //Print all positive integers that are multiples of 3 up to 1000.
 
 
-//Find the number of positive divisors of a given number.
+//Find the number of positive divisors of a taken number.
 
 
 
