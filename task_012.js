@@ -2,10 +2,10 @@
 
 let sum = 0;
 
-for (let index = 34; index < 1000; index++) {
+for (let index = 34; index <= 1000; index++) {   
     
     sum += (index % 5 == 0 && index % 3 != 0) ? index: 0;
-  
+
 }
 
 console.log(sum);
